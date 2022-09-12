@@ -1,0 +1,14 @@
+.img-gallery-container{
+    position: relative;
+    height: 40vh;
+    min-height: 250px;
+}
+.scroller-container{
+    display: flex;
+    margin: 0 10%;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 80%;
+    bottom: 5%;
+}

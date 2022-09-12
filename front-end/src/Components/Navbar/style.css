@@ -1,0 +1,46 @@
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 80px;
+  background: cadetblue;
+  padding: 1rem;
+  gap: 1rem;
+}
+.brand-name {
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+.nav-right-container {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.search-bar {
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+}
+.icon-over-count {
+  position: relative;
+}
+.icon-over-count::after {
+  content: attr(data-count);
+  position: absolute;
+  left: 0.5rem;
+  top: -0.4rem;
+  font-size: 0.8rem;
+  font-weight: bold;
+  background: #e79d30;
+  border-radius: 25%;
+  color: white;
+  text-align: center;
+  padding: 2px 5px;
+}
